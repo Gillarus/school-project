@@ -1,0 +1,51 @@
+body {  background-color: black; 
+background-size: cover;
+background-position: center;
+
+}
+header,footer,
+article,section,
+hgroup,nav{
+    display:block;
+}
+header{
+    color: white;
+    text-align: center;
+    background-color:#0080ff ;
+    padding: auto;
+    margin: auto;
+    box-shadow: 5px black;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    opacity: 0.4;
+    
+}
+header:hover{opacity: 1.0;}
+a {    text-decoration: none;}
+
+header h1 { padding-top: 50px}
+header h2 {padding-bottom: 700px;}
+
+
+}
+img.nav { margin: 42px;
+}
+nav{
+    margin:3em;
+    padding:20px;
+    display: inline;
+    display: relative;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: auto;
+    color: white;
+    float: left;
+    padding-top: 0;
+    margin-left: 225px;
+    opacity: 0.4;
+
+}
+nav:hover{opacity: 1.0;}

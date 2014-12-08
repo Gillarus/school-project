@@ -1,0 +1,22 @@
+.gallery {
+    position: relative;
+    top: 300px;
+    
+    .item {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        margin-top: 250px
+        float: left;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity .5s;
+    }
+        
+    .item:first-of-type {
+        position: absolute;
+        pointer-events: auto;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,34 @@
+body {  background: url(images.jpg) no-repeat; 
+background-size: cover;
+background-position: center;
+
+}
+header,footer,
+article,section,
+hgroup,nav{
+    display:block;
+}
+header{
+    color: white;
+    text-align: center;
+    background-color:#213E4A ;
+    padding: auto;
+    margin: auto;
+    box-shadow: 5px black;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    
+}
+
+header h1 { padding-top: 50px}
+header h2 {padding-bottom: 700px;}
+h2{ float: center;
+text-align: center;}
+figure { align-content: center;
+        margin: auto;
+        padding: 0px;
+     border-color: 2px solid black;
+    border-radius: 25px;
+
+}
